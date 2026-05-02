@@ -129,5 +129,8 @@ public class ArrayListGetDemo {
         System.out.println("- Para buscar por valor usa indexOf(Object), no get.");
         System.out.println("- La ambigüedad índice/objeto aparece en remove, no en get,");
         System.out.println("  y se resuelve en tiempo de compilación según el tipo del argumento.");
+        System.out.println();
+        System.out.println("Para profundizar en cómo resolver la ambigüedad de remove ver:");
+        System.out.println("  fundamentos.colecciones.ArrayListRemoveDemo");
     }
 }
