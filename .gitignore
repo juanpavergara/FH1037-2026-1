@@ -4,3 +4,5 @@ out/
 .claude/
 salida.txt
 ejercicio*.txt
+out-test/
+lib/*.jar

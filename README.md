@@ -41,7 +41,8 @@ docs/
 ```bash
 make all          # compila todos los .java a out/
 make run          # ejecuta la clase indicada en MAIN del Makefile
-make clean        # borra out/
+make test         # compila y ejecuta las pruebas unitarias (JUnit 5)
+make clean        # borra out/ y out-test/
 ```
 
 Para correr una clase puntual, use su nombre completo (paquete + clase):
@@ -53,6 +54,12 @@ java -cp out fundamentos.entradasalida.EntradaSalidaEjercicios
 ```
 
 > Los programas de `entradasalida` generan archivos (`salida.txt`, `ejercicio*.txt`) en el directorio desde donde se ejecutan. Están en `.gitignore`.
+
+## Pruebas unitarias
+
+Las pruebas usan **JUnit 5** y viven en `test/`, con la misma estructura de paquetes que `src/`. `make test` descarga automáticamente el JAR `junit-platform-console-standalone` en `lib/` la primera vez (requiere conexión a internet; el JAR está en `.gitignore`).
+
+Las pruebas de los 3 ejercicios de `EntradaSalidaEjercicios` están marcadas con `@Disabled` porque los métodos son `TODO` para el estudiante. Al implementar un ejercicio, quite el `@Disabled` correspondiente en `test/fundamentos/entradasalida/EntradaSalidaEjerciciosTest.java` y ejecute `make test`.
 
 ## Documentación
 
