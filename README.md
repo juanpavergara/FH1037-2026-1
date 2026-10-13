@@ -31,10 +31,10 @@ docs/
 | `arreglos.algoritmos` | Búsqueda y ordenamiento | `ArraySearch`, `ArraySorting` |
 | `arreglos.bidimensional` | Matrices | `ArreglosBidimensionales` |
 | `colecciones` | Ambigüedad de `.get`/`.remove` en `ArrayList<Integer>` | `ArrayListGetDemo`, `ArrayListRemoveDemo` |
-| `entradasalida` | Lectura y escritura de archivos | `EntradaSalidaDemo`, `EntradaSalidaEjercicios` |
+| `entradasalida` | Lectura y escritura de archivos (`EntradaSalidaEjercicios` trae 3 ejercicios con `TODO` para completar) | `EntradaSalidaDemo`, `EntradaSalidaEjercicios` |
 | `poo.banco` | Encapsulamiento, herencia y polimorfismo (`Cuenta`, `CuentaAhorros`, `CuentaCorriente`) | `BancoDemo` |
 | `poo.biblioteca` | Composición, agregación y asociación (`Biblioteca`, `Libro`, `Copia`, `Miembro`, `Prestamo`) | `BibliotecaDemo` |
-| `poo.figuras` | Clase abstracta `Figura` e interfaces `Escalable`, `Dibujable`, `Operable` | `FigurasDemo` |
+| `poo.figuras` | Clase abstracta `Figura`, interfaces `Escalable` y `Dibujable` (default methods), y `Operable` (clase abstracta pura, como contraste con las interfaces) | `FigurasDemo` |
 
 ## Compilar y ejecutar
 
