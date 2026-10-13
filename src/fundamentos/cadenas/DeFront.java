@@ -7,7 +7,8 @@ public class DeFront {
     public static String transformarStringConArrays(String str) {
 
         char[] chars = str.toCharArray();
-        int newCharLength = chars.length - 2;
+        // Con menos de 2 caracteres no hay nada que eliminar: el mínimo es 0.
+        int newCharLength = Math.max(chars.length - 2, 0);
 
         if (chars.length > 0) {
             if (chars[0] == 'a' || chars[0] == 'A') {
