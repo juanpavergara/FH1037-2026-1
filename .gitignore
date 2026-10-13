@@ -6,3 +6,10 @@ salida.txt
 ejercicio*.txt
 out-test/
 lib/*.jar
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key
+.beads/proxieddb/
+*.gate.lock*
